@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 20px;
+}
+/*header*/
+.header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	letter-spacing: 6px;
+}
+h1{
+	font-size: 150px;
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;	
+	background-color: #f2f2f2;
+}
+
+nav li a {
+	display: block;
+	color: #333;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.header > p{
+	font-size: 40px;
+	font-family: 'Delicious Handrawn', cursive;
+}
+nav li a:hover {
+	background-color: #ddd;
+}
+ul {
+	list-style-type: disc;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 30px;
+	font-style: oblique;
+
+}
+li{
+	align-items: center;
+	justify-content: center;
+}
+/*Footer*/
+.footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.About{
+background-color: #bdb6b6;
+margin-bottom: 30px;
+text-align: center;
+}
+/*Index*/
+.container {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	font-size: 100px;
+	color: #f2f2f2;
+	font-style: italic;
+	text-align: center;
+}
+a{
+	color: #fff;
+	text-decoration-line: none;
+}
+.men{
+	background-image: url(./pictures/trial1.jpg);
+	background-size: 100% 500px;
+	background-repeat: no-repeat;
+	height: 100%;
+	margin: 20px;
+}
+.women{
+	background-image: url(./pictures/trial2.jpg);
+	background-size: 100% 500px;
+	background-repeat: no-repeat;
+	height: 100%;
+	margin: 20px;
+}
+.kids{
+	background-image: url(./pictures/trial3.jpg);
+	background-size: 100% 500px;
+	background-repeat: no-repeat;
+	height: 100%;
+	margin: 20px;
+}
+/*About*/
+.team{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #bdb6b6;
+}
+.abus{
+	font-size: 20px;
+	text-align: center;
+	font-variant: small-caps;
+}
+h2{
+	text-align: center;
+	font-size: 40px;
+}
+.member img{
+	width: 300px;
+	height: 300px;
+}
+/*SHOP*/
+.product img{
+	width: 300px;
+	height: 300px;
+}
+.product{
+width: 340px;
+height: auto;
+text-align: center;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+display: inline-flex;
+}
+/*Mens*/
+.shirt img{
+	width: 300px;
+}
+.shirt{
+	width:340px;
+	height: auto;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
